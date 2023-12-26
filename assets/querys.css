@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-card {
+    height: auto;
+  }
+
+  .container-cards-row1, .container-cards-row2 {
+    flex-direction: column;
+  }
+
+  @media (max-width: 375px) {
+
+    section{
+      width: auto ;
+    }
+  }
+  
+}
